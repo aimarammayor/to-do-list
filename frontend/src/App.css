@@ -1,0 +1,93 @@
+
+.gradient-custom {
+  background: radial-gradient(50% 123.47% at 50% 50%, #00ff94 0%, #720059 100%),
+    linear-gradient(121.28deg, #669600 0%, #ff0000 100%),
+    linear-gradient(360deg, #0029ff 0%, #8fff00 100%),
+    radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%),
+    radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
+  background-blend-mode: screen, color-dodge, overlay, difference, normal;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.no-register {
+  margin-top:50px;
+  text-align: center;
+}
+.create_form input {
+  width: 300px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  outline: none;
+
+}
+.line_through{
+  text-decoration: line-through;
+}
+.create_form button {
+
+  padding: 10px;
+  background-color: black;
+  color: antiquewhite;
+ cursor: pointer;
+
+}
+.task div span {
+  cursor: pointer;
+}
+.btn-custom {
+  /* Estilo personalizado para el botón */
+  padding: 10px 20px;
+  background-color: pink; /* Cambia el color a rosa */
+  color: white;
+  border: solid rgb(246, 88, 114);
+  cursor: pointer;
+}
+
+.to-do-list {
+  margin-top: 60px; /* Ajusta el valor del margen superior según sea necesario */
+  margin-bottom: 60px;
+}
+.form-control{
+
+  border-bottom: 1px solid black ;
+  
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(237, 235, 235);
+  border-radius: 13px;
+  color: rgb(28, 3, 82);
+  height: 35px;
+  padding: 10px;
+  margin-top: 25px;
+  width: 345px;
+}
+
+.task .checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.task .icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.task p {
+  margin: 0; /* Elimina el margen predeterminado del párrafo */
+}
+
+
+.input-group input.form-control {
+  border: none; /* Quita el borde del input */
+  border-bottom: 2px solid; /* Aplica solo el borde inferior */
+  outline: none; /* Quita el contorno al enfocar el input */
+  border-radius: 0; /* Elimina el borde circular */
+}
