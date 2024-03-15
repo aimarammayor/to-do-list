@@ -8,7 +8,7 @@ function CreateTask({ onUpdateTasks }) {
 
   const handleAddTask = () => {
     if (!task.trim()) {
-      alert('Por favor, ingresa una tarea válida.');
+      alert('Poorly, please enter a valid task.');
       return;
     }
 
@@ -24,7 +24,7 @@ function CreateTask({ onUpdateTasks }) {
       })
       .catch((err) => {
         console.log(err);
-        alert('Ocurrió un error al agregar la tarea. Por favor, inténtalo de nuevo.');
+        alert('An error occurred while adding the task. Please try again.');
       });
   };
   const handleKeyDown = (event) => {
@@ -52,7 +52,7 @@ function CreateTask({ onUpdateTasks }) {
               </button>
             </div>
           </div>
-          {showSuccessMessage && <div className="alert alert-success mt-3">Tarea agregada correctamente.</div>}
+          {showSuccessMessage && <div className="alert alert-success mt-3">Task added successfully.</div>}
         </div>
       </div>
     </div>
